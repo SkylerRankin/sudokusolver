@@ -1,11 +1,9 @@
 # sudokusolver
 
-This page uses recursive backtracking to solve sudoku puzzles, giving the option to show a visual animation of the recursion process.
+#### This page uses recursive backtracking to solve sudoku puzzles, giving the option to show a visual animation of the recursion process.
 
-<i>Algorithm</i>
-  <ol>
-  <li>Select a cell</li>
-  <li>Generate a list of usable values for said cell, and place one of the values into said cell</li>
-  <li>If no values are usable, set the cell back to 0 and return false</li>
-  <li>If value is found, recursively repeat these steps</li>
-  </ol>
+### Algorithm
+1. Select a cell
+2. Generate a lsit of usable values for the cell, and place one of the values into it
+3. If no values are usable, set the cell back to 0 and return false
+4. If value is found, recursively repeat these steps
